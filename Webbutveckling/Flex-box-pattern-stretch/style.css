@@ -6,6 +6,7 @@
     flex-grow: 1;
     height: 100px;
     background-color: lightblue;
+
 }
 
 .item + .item {
