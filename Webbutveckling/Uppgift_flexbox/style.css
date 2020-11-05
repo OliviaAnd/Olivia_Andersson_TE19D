@@ -8,6 +8,10 @@ body {
     background-color: grey;
 }
 
+.contaier-2 {
+font-size: 50px;
+}
+
 .item {
     display: flex;
     flex-grow: 1;
@@ -15,5 +19,22 @@ body {
     justify-content: center;
     align-items: center;
     font-size: 60px;
+}
 
+a {
+    width: 100%;
+    height: 100%;
+    text-align: center; 
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: underline;
+}
+
+a:hover {
+    color: ghostwhite;
 }
