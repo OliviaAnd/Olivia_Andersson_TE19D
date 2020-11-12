@@ -1,11 +1,11 @@
 body {
     background-color: ghostwhite;   
+    background-color: url();
 }
 
 .container {
     display: flex;
     margin: 5%;
-    background-color:ghostwhite;
 }
 
 .contaier-2 {
@@ -13,10 +13,10 @@ body {
     justify-content: center;
 }
 
-.item-2 {
+.container-3 {
     display: flex;
-    font-size: 40px;
-    justify-content: center;
+    justify-content: center; 
+    margin: 10%;
 }
 
 .item {
@@ -27,6 +27,26 @@ body {
     align-items: center;
     font-size: 40px;
     background-color:grey;
+    border: 1px solid black;
+}
+
+.item-2 {
+    display: flex;
+    font-size: 40px;
+    justify-content: center;
+}
+
+.item-3 {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    font-size: 40px;
+    height: 200px;
+    width: 200px;
+}
+
+.item-3 + .item-3 {
+    margin-left: 0.5%;
 }
 
 .item + .item {
@@ -41,6 +61,11 @@ a {
 
 a:link {
     text-decoration: none;
+    color: lightseagreen;
+}
+
+a:visited {
+    color: lightseagreen;
 }
 
 a:active {
@@ -49,4 +74,12 @@ a:active {
 
 a:hover {
     color: ghostwhite;
+}
+
+footer {
+    justify-content: center;
+    text-align: center;
+
+    margin: 30%;
+    
 }
